@@ -2,7 +2,7 @@
 
 namespace BilletLibrary
 {
-    public class Bil
+    public class MC
     {
         public string Nummerplade { get; set; }
         public DateTime Date { get; set; }
@@ -14,7 +14,7 @@ namespace BilletLibrary
         /// <returns></returns>
         public decimal Pris()
         {
-            return 240;
+            return 125;
         }
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace BilletLibrary
         /// <returns></returns>
         public string Køretøj()
         {
-            return "Bil";
+            return "MC";
         }
     }
 }

@@ -1,37 +1,36 @@
-using BilletLibrary;
+ï»¿using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BilletTester
 {
-    [TestClass]
-    public class Biltester
+    public class MCtester
     {
         [TestMethod]
         public void Pristester()
         {
             // Arrange 
-            Bil biltest = new Bil();
+            MC biltest = new MC();
 
             // Act
 
             var result = biltest.Pris();
 
             // Assert
-            Assert.AreEqual(240, result);
+            Assert.AreEqual(125, result);
         }
 
         [TestMethod]
-        public void Køretøjtester()
+        public void KÃ¸retÃ¸jtester()
         {
             // Arrange 
-            Bil biltest = new Bil();
+            MC biltest = new MC();
 
             // Act
 
-            var result = biltest.Køretøj();
+            var result = biltest.KÃ¸retÃ¸j();
 
             // Assert
-            Assert.AreEqual("Bil", result);
+            Assert.AreEqual("MC", result);
         }
     }
 }
