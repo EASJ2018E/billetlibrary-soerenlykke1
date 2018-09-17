@@ -2,7 +2,7 @@
 
 namespace BilletLibrary
 {
-    public class MC
+    public class MC : Koeretoej
     {
         public string Nummerplade { get; set; }
         public DateTime Date { get; set; }
@@ -12,7 +12,7 @@ namespace BilletLibrary
         /// En metode som retuner prisen som decimal.
         /// </summary>
         /// <returns></returns>
-        public decimal Pris()
+        public override decimal Pris()
         {
             return 125;
         }
@@ -21,7 +21,7 @@ namespace BilletLibrary
         /// En metode som retunere hvilket køretøj det er (Bil).
         /// </summary>
         /// <returns></returns>
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "MC";
         }

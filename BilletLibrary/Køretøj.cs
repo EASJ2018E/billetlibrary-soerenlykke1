@@ -2,7 +2,7 @@
 
 namespace BilletLibrary
 {
-    public class Bil : Koeretoej
+    public abstract class Koeretoej
     {
         public string Nummerplade { get; set; }
         public DateTime Date { get; set; }
@@ -12,18 +12,14 @@ namespace BilletLibrary
         /// En metode som retuner prisen som decimal.
         /// </summary>
         /// <returns></returns>
-        public override decimal Pris()
-        {
-            return 240;
-        }
+        abstract public decimal Pris();
+
 
         /// <summary>
         /// En metode som retunere hvilket køretøj det er (Bil).
         /// </summary>
         /// <returns></returns>
-        public override string Køretøj()
-        {
-            return "Bil";
-        }
-    }   
+        abstract public string Køretøj();
+
+    }
 }
