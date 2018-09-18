@@ -23,19 +23,16 @@ namespace BilletLibrary
             }
         }
 
-        public DateTime Date { get; set; }
+        public override DateTime Date { get; set; }
 
-
-        
-
-
+        public override double Rabat { get; set; }
 
 
         /// <summary>
-        /// En metode som retuner prisen som decimal.
+        /// En metode som retuner prisen som double.
         /// </summary>
         /// <returns></returns>
-        public override decimal Pris()
+        public override double Pris()
         {
             return 240;
         }
@@ -47,6 +44,17 @@ namespace BilletLibrary
         public override string Køretøj()
         {
             return "Bil";
+        }
+
+        public double StandardRabat()
+        {
+            return base.StandardRabat();
+        }
+
+        public override double Brobizz()
+        {
+            var brobizzpris = Pris()*StandardRabat();
+            return brobizzpris;
         }
     }   
 }

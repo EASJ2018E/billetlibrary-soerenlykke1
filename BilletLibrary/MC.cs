@@ -6,7 +6,7 @@ namespace BilletLibrary
     {
         private string _nummerplade;
 
-        public string Nummerplade
+        public override string Nummerplade
         {
             get { return _nummerplade; }
             set
@@ -22,25 +22,37 @@ namespace BilletLibrary
             }
         }
 
-        public DateTime Date { get; set; }
+        public override DateTime Date { get; set; }
 
+        public override double Rabat { get; set; }
 
         /// <summary>
-        /// En metode som retuner prisen som decimal.
+        /// En metode som retuner prisen som double.
         /// </summary>
         /// <returns></returns>
-        public override decimal Pris()
+        public override double Pris()
         {
             return 125;
         }
 
         /// <summary>
-        /// En metode som retunere hvilket køretøj det er (Bil).
+        /// En metode som retunere hvilket køretøj det er (MC).
         /// </summary>
         /// <returns></returns>
         public override string Køretøj()
         {
             return "MC";
+        }
+
+        public double StandardRabat()
+        {
+            return base.StandardRabat();
+        }
+
+        public override double Brobizz()
+        {
+            var brobizzpris = Pris() * StandardRabat();
+            return brobizzpris;
         }
     }
 }

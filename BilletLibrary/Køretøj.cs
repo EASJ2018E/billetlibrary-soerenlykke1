@@ -4,7 +4,7 @@ namespace BilletLibrary
 {
     public abstract class Koeretoej
     {
-        private string _nummerplade ="ab";
+        private string _nummerplade;
 
         public virtual string Nummerplade
         {
@@ -12,21 +12,29 @@ namespace BilletLibrary
             set { _nummerplade = value; }
         }
 
-        public DateTime Date { get; set; }
+        public virtual DateTime Date { get; set; }
+
+        public virtual double Rabat { get; set; }
 
         /// <summary>
-        /// En metode som retuner prisen som decimal.
+        /// En metode som retuner prisen som double.
         /// </summary>
         /// <returns></returns>
-        abstract public decimal Pris();
+        abstract public double Pris();
 
 
         /// <summary>
-        /// En metode som retunere hvilket køretøj det er (Bil).
+        /// En metode som retunere hvilket køretøj det er.
         /// </summary>
         /// <returns></returns>
         abstract public string Køretøj();
 
+        abstract public double Brobizz();
+
+        virtual public double StandardRabat()
+        {
+            return 0.95;
+        }
 
 
     }
