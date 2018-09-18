@@ -4,8 +4,31 @@ namespace BilletLibrary
 {
     public class Bil : Koeretoej
     {
-        public string Nummerplade { get; set; }
+        private string _nummerplade;
+
+        public override string Nummerplade
+        {
+            get { return _nummerplade; }
+            set
+            {
+                
+                if (value.Length < 8)
+                {
+                    _nummerplade = value;
+                }
+                else
+                {
+                    throw new ArgumentException("For mange tal.");
+                }   
+            }
+        }
+
         public DateTime Date { get; set; }
+
+
+        
+
+
 
 
         /// <summary>

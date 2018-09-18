@@ -1,36 +1,52 @@
-﻿using BilletLibrary;
+﻿using System;
+using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BilletTester
-{
+{   
+    [TestClass]
     public class MCtester
     {
         [TestMethod]
-        public void Pristester()
+        public void MCPristester()
         {
             // Arrange 
-            MC biltest = new MC();
+            MC mctest = new MC();
 
             // Act
 
-            var result = biltest.Pris();
+            var result = mctest.Pris();
 
             // Assert
             Assert.AreEqual(125, result);
         }
 
         [TestMethod]
-        public void Køretøjtester()
+        public void MCKøretøjtester()
         {
             // Arrange 
-            MC biltest = new MC();
+            MC mctest = new MC();
 
             // Act
 
-            var result = biltest.Køretøj();
+            var result = mctest.Køretøj();
 
             // Assert
             Assert.AreEqual("MC", result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void MCNummerpladetester()
+        {
+            // Arrange
+            MC mctest = new MC();
+
+            // Act
+            mctest.Nummerplade = "12345678";
+
+            // Assert
+            Assert.Fail();
         }
     }
 }

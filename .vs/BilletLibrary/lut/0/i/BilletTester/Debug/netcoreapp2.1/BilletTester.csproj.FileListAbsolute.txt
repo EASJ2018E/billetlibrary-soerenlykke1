@@ -1,0 +1,13 @@
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\BilletTester.deps.json
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\BilletTester.runtimeconfig.json
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\BilletTester.runtimeconfig.dev.json
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\b\BilletTester\Debug\netcoreapp2.1\BilletTester.dll
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.csprojAssemblyReference.cache
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.csproj.CoreCompileInputs.cache
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.AssemblyInfoInputs.cache
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.AssemblyInfo.cs
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.csproj.CopyComplete
+C:\source\Program\billetlibrary-soerenlykke1\.vs\BilletLibrary\lut\0\i\BilletTester\Debug\netcoreapp2.1\BilletTester.dll

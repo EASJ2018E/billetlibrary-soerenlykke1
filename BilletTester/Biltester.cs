@@ -1,3 +1,4 @@
+using System;
 using BilletLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -7,7 +8,7 @@ namespace BilletTester
     public class Biltester
     {
         [TestMethod]
-        public void Pristester()
+        public void BilPristester()
         {
             // Arrange 
             Bil biltest = new Bil();
@@ -21,7 +22,7 @@ namespace BilletTester
         }
 
         [TestMethod]
-        public void Køretøjtester()
+        public void BilKøretøjtester()
         {
             // Arrange 
             Bil biltest = new Bil();
@@ -32,6 +33,25 @@ namespace BilletTester
 
             // Assert
             Assert.AreEqual("Bil", result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void BilNumberpladetester()
+        {
+            // Arrange
+            Bil biltest = new Bil();
+            
+            // Act
+            biltest.Nummerplade = "123456789";
+
+            // Assert
+            Assert.Fail();
+
+
+
+
+
         }
     }
 }

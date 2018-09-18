@@ -4,9 +4,15 @@ namespace BilletLibrary
 {
     public abstract class Koeretoej
     {
-        public string Nummerplade { get; set; }
-        public DateTime Date { get; set; }
+        private string _nummerplade ="ab";
 
+        public virtual string Nummerplade
+        {
+            get { return _nummerplade; }
+            set { _nummerplade = value; }
+        }
+
+        public DateTime Date { get; set; }
 
         /// <summary>
         /// En metode som retuner prisen som decimal.
@@ -20,6 +26,8 @@ namespace BilletLibrary
         /// </summary>
         /// <returns></returns>
         abstract public string Køretøj();
+
+
 
     }
 }
