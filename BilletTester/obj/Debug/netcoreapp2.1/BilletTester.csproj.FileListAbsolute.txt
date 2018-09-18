@@ -15,3 +15,4 @@ C:\source\Program\billetlibrary-soerenlykke1\BilletTester\obj\Debug\netcoreapp2.
 C:\source\Program\billetlibrary-soerenlykke1\BilletTester\obj\Debug\netcoreapp2.1\BilletTester.csproj.CopyComplete
 C:\source\Program\billetlibrary-soerenlykke1\BilletTester\obj\Debug\netcoreapp2.1\BilletTester.dll
 C:\source\Program\billetlibrary-soerenlykke1\BilletTester\obj\Debug\netcoreapp2.1\BilletTester.pdb
+C:\source\Program\billetlibrary-soerenlykke1\BilletTester\bin\Debug\netcoreapp2.1\BilletLibrary.xml

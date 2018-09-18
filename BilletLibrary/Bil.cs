@@ -2,6 +2,12 @@
 
 namespace BilletLibrary
 {
+
+    /// <summary>
+    /// Dette er bil klassen. Bil klassen er en base class af Køretøj. 
+    /// Properties: Nummerplade, Date, Rabat og standard rabat.
+    /// Methods: Pris, Køretøj, StandardRabat og Brobizz
+    /// </summary>
     public class Bil : Koeretoej
     {
         private string _nummerplade;
@@ -46,11 +52,19 @@ namespace BilletLibrary
             return "Bil";
         }
 
+        /// <summary>
+        /// StandardRabat er 5% rabat som angivet i opgaven
+        /// </summary>
+        /// <returns></returns>
         public double StandardRabat()
         {
             return base.StandardRabat();
         }
 
+        /// <summary>
+        /// Brobizz er prisen med rabat.
+        /// </summary>
+        /// <returns></returns>
         public override double Brobizz()
         {
             var brobizzpris = Pris()*StandardRabat();

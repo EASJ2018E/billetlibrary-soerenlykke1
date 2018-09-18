@@ -29,8 +29,10 @@ namespace BilletLibrary
         /// <returns></returns>
         abstract public string Køretøj();
 
+
         abstract public double Brobizz();
 
+        
         virtual public double StandardRabat()
         {
             return 0.95;

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            Dette er bil klassen. Bil klassen er en base class af Køretøj. 
+            Properties: Nummerplade, Date, Rabat og standard rabat.
+            Methods: Pris, Køretøj, StandardRabat og Brobizz
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            En metode som retuner prisen som double.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            En metode som retunere hvilket køretøj det er (Bil).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.StandardRabat">
+            <summary>
+            StandardRabat er 5% rabat som angivet i opgaven
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Brobizz">
+            <summary>
+            Brobizz er prisen med rabat.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Koeretoej.Pris">
+            <summary>
+            En metode som retuner prisen som double.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Koeretoej.Køretøj">
+            <summary>
+            En metode som retunere hvilket køretøj det er.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            Dette er bil klassen. Bil klassen er en base class af Køretøj. 
+            Properties: Nummerplade, Date, Rabat og standard rabat.
+            Methods: Pris, Køretøj, StandardRabat og Brobizz
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            En metode som retuner prisen som double.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
+            <summary>
+            En metode som retunere hvilket køretøj det er (MC).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.StandardRabat">
+            <summary>
+            StandardRabat er 5% rabat som angivet i opgaven
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Brobizz">
+            <summary>
+            Brobizz er prisen med rabat.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
